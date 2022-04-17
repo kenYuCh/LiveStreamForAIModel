@@ -1,0 +1,26 @@
+
+</div>
+
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+        $(this).toggleClass('active');
+    });
+
+    $(document).ready(function() {
+        $('#example').DataTable({
+            scrollY:     300,
+            scroller:    true
+        });
+    });
+
+});
+
+</script>
+
+</body>
+</html>
